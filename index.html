@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your System</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <span class="sidebar-title">Employee Management System</span>
+      <button class="sidebar-toggle" onclick="toggleSidebar()"><i class="fas fa-bars"></i></button>
+    </div>
+    <ul class="sidebar-menu">
+      <li><i class="fas fa-user-cog"></i> Profile Manager</li>
+      <li><i class="fas fa-users"></i> Employee Manager</li>
+      <li><i class="fas fa-clipboard-list"></i> Attendance</li>
+      <li><i class="fas fa-calendar-alt"></i> Leave</li>
+      <li><i class="fas fa-money-bill-wave"></i> Payroll</li>
+      <li><i class="fas fa-cog"></i> Settings</li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <button class="navbar-toggle" onclick="toggleSidebar()"><i class="fas fa-bars"></i></button>
+    </nav>
+
+    <!-- Content -->
+    <div class="container">
+      <div class="grid">
+        <!-- Cards (same as before) -->
+        <div class="card">
+          <i class="fas fa-user-cog"></i>
+          Profile Manager
+        </div>
+        <div class="card">
+          <i class="fas fa-users"></i>
+          Employee Manager
+        </div>
+        <div class="card">
+          <i class="fas fa-clipboard-list"></i>
+          Attendance
+        </div>
+        <div class="card">
+          <i class="fas fa-calendar-alt"></i>
+          Leave
+        </div>
+        <div class="card">
+          <i class="fas fa-money-bill-wave"></i>
+          Payroll
+        </div>
+        <div class="card">
+          <i class="fas fa-cog"></i>
+          Settings
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
